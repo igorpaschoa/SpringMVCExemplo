@@ -19,11 +19,13 @@
 		
 		<label>Nome:</label>
 		<form:input path="nome" />
+		<form:errors path="nome"></form:errors>
 		
 		<br/>
 		
 		<label>Gênero:</label>
 		<form:input path="genero" />
+		<form:errors path="genero"></form:errors>
 		
 		<br/>
 		

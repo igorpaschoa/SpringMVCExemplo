@@ -16,11 +16,13 @@
 
 		<label>Nome:</label>
 		<form:input path="nome" />
+		<form:errors path="nome"></form:errors>
 
 		<br />
 
 		<label>Ano de Lançamento:</label>
 		<form:input path="anoLancamento" />
+		<form:errors path="anoLancamento"></form:errors>
 
 		<br />
 
