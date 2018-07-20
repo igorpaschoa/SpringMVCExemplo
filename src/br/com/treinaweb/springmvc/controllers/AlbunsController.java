@@ -18,7 +18,7 @@ public class AlbunsController {
 	@RequestMapping(value = "/adicionar", method = RequestMethod.GET)
 	public String adicionar(Model model) {
 		model.addAttribute("album", new Album());
-		return "albuns/adicionar";
+		return "album.adicionar.tiles";
 	}
 
 	@RequestMapping(value = "/adicionar", method = RequestMethod.POST)
@@ -27,6 +27,6 @@ public class AlbunsController {
 			return "albuns/adicionar";
 		}
 		model.addAttribute("album", novoAlbum);
-		return "albuns/exibir";
+		return "album.exibir.tiles";
 	}
 }
