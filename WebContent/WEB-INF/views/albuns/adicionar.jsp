@@ -26,7 +26,7 @@
 
 		<br />
 
-		<input type="submit" value="Salvar">
+		<input type="submit" value="Salvar" />
 	</form:form>
 </body>
 </html>
