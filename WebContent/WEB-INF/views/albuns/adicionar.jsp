@@ -22,7 +22,7 @@
 
 		<label>Ano de Lançamento:</label>
 		<form:input path="anoLancamento" />
-		<form:errors path="anoLancamento"></form:errors>
+		<form:errors path="anoLancamento" />
 
 		<br />
 
