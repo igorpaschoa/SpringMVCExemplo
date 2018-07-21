@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tiles-definition PUBLIC
+<!DOCTYPE tiles-definitions PUBLIC
 	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
 	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
-<tiles-definition>
+<tiles-definitions>
 	<!-- ** Layout Base ** -->
 	<definition name="layout.tiles"
 		template="/WEB-INF/views/layout/baseLayout.jsp">
@@ -15,16 +15,16 @@
 	</definition>
 	<!-- ** Album ** -->
 	<definition name="album.adicionar.tiles"
-		extends="layout.base">
+		extends="layout.tiles">
 		<put-attribute name="title"
 			value="TreinaWeb Spring MVC: Adição de albuns"></put-attribute>
 		<put-attribute name="body"
 			value="/WEB-INF/views/albuns/adicionar.jsp"></put-attribute>
 	</definition>
-	<definition name="album.exibir.tiles" extends="layout.base">
+	<definition name="album.exibir.tiles" extends="layout.tiles">
 		<put-attribute name="title"
 			value="TreinaWeb Spring MVC: Exibição de albuns"></put-attribute>
 		<put-attribute name="body"
 			value="/WEB-INF/views/albuns/exibir.jsp"></put-attribute>
 	</definition>
-</tiles-definition>
+</tiles-definitions>

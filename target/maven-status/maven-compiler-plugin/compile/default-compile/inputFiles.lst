@@ -1,5 +1,5 @@
-/home/igor/Documents/projetos/TreinaWebSpringMVC/src/br/com/treinaweb/springmvc/controllers/FilmesController.java
-/home/igor/Documents/projetos/TreinaWebSpringMVC/src/br/com/treinaweb/springmvc/dominios/Filme.java
-/home/igor/Documents/projetos/TreinaWebSpringMVC/src/br/com/treinaweb/springmvc/dominios/Album.java
-/home/igor/Documents/projetos/TreinaWebSpringMVC/src/br/com/treinaweb/springmvc/controllers/HelloController.java
-/home/igor/Documents/projetos/TreinaWebSpringMVC/src/br/com/treinaweb/springmvc/controllers/AlbunsController.java
+/home/igor/git/SpringMVCExemplo/src/br/com/treinaweb/springmvc/dominios/Album.java
+/home/igor/git/SpringMVCExemplo/src/br/com/treinaweb/springmvc/dominios/Filme.java
+/home/igor/git/SpringMVCExemplo/src/br/com/treinaweb/springmvc/controllers/AlbunsController.java
+/home/igor/git/SpringMVCExemplo/src/br/com/treinaweb/springmvc/controllers/FilmesController.java
+/home/igor/git/SpringMVCExemplo/src/br/com/treinaweb/springmvc/controllers/HelloController.java

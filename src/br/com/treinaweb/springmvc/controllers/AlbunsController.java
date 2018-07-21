@@ -24,7 +24,7 @@ public class AlbunsController {
 	@RequestMapping(value = "/adicionar", method = RequestMethod.POST)
 	public String adicionar(@ModelAttribute("album") @Valid Album novoAlbum, BindingResult result, Model model) {
 		if (result.hasErrors()) {
-			return "albuns/adicionar";
+			return "album.adicionar.tiles";
 		}
 		model.addAttribute("album", novoAlbum);
 		return "album.exibir.tiles";
